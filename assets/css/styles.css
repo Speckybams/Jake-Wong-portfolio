@@ -322,6 +322,15 @@ textarea {
   filter: brightness(0) invert(1);
 }
 
+.logos img.logo-light {
+  filter: none;
+}
+
+.logos img.logo-ports-monaco {
+  height: 38px;
+  max-width: 160px;
+}
+
 .about-grid {
   display: grid;
   grid-template-columns: 1.1fr 0.9fr;
