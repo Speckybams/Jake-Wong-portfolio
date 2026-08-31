@@ -30,8 +30,14 @@
   const form = document.querySelector('#contact-form');
   const success = document.querySelector('.form-success');
   const beholdEmbed = document.querySelector('[data-behold-id]');
-  if (beholdEmbed && !beholdEmbed.getAttribute('data-behold-id')) {
-    beholdEmbed.innerHTML = '<p class="instagram-feed__setup">Connect @jakewong.visuals at <a href="https://behold.so/" target="_blank" rel="noopener">behold.so</a>, then paste your feed ID into <code>index.html</code>.</p>';
+  const beholdFeedId = beholdEmbed?.getAttribute('data-behold-id')?.trim();
+  if (beholdEmbed && beholdFeedId) {
+    const script = document.createElement('script');
+    script.src = 'https://w.behold.so/widget.js';
+    script.type = 'module';
+    document.body.appendChild(script);
+  } else if (beholdEmbed) {
+    beholdEmbed.remove();
   }
   if (form) {
     form.addEventListener('submit', (e) => {
