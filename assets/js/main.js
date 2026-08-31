@@ -29,16 +29,6 @@
 
   const form = document.querySelector('#contact-form');
   const success = document.querySelector('.form-success');
-  const beholdEmbed = document.querySelector('[data-behold-id]');
-  const beholdFeedId = beholdEmbed?.getAttribute('data-behold-id')?.trim();
-  if (beholdEmbed && beholdFeedId) {
-    const script = document.createElement('script');
-    script.src = 'https://w.behold.so/widget.js';
-    script.type = 'module';
-    document.body.appendChild(script);
-  } else if (beholdEmbed) {
-    beholdEmbed.remove();
-  }
   if (form) {
     form.addEventListener('submit', (e) => {
       e.preventDefault();

@@ -33,16 +33,6 @@ Then check **Cloudflare Dashboard → Workers & Pages → your project → Deplo
 3. **Check the deployment did not fail** — a single file over **25 MB** will fail the build. Large videos should be hosted externally (linked by URL), not uploaded to this repo.
 4. **Purge cache** — Cloudflare → your domain → Caching → Purge Everything (only if the deployment succeeded but the browser still shows old content).
 
-### Instagram feed
-
-The homepage uses [Behold](https://behold.so/) for the @jakewong.visuals feed (Instagram requires a connected Professional account):
-
-1. Sign up free at behold.so
-2. Connect @jakewong.visuals as a source
-3. Create a **Widget** feed
-4. Copy the feed ID from the embed code (`data-behold-id="..."`)
-5. Paste it into `index.html` on the `data-behold-id` attribute
-
 Upload this folder to Cloudflare Pages, Netlify, or GitHub Pages. A CNAME file is included.
 
 ## Contact form
