@@ -184,6 +184,22 @@ textarea {
   color: #dedede;
 }
 
+.hero-tagline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45em;
+}
+
+.hero-starling-logo {
+  height: 2.4em;
+  width: auto;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+  vertical-align: middle;
+}
+
 .section {
   padding: 96px 32px;
   max-width: var(--max);
