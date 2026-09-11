@@ -37,4 +37,4 @@ Upload this folder to Cloudflare Pages, Netlify, or GitHub Pages. A CNAME file i
 
 ## Contact form
 
-The contact form opens an email to jake.w@volugraph.com. Change that address in assets/js/main.js if needed.
+Submissions are sent to **jake.w@volugraph.com** via [FormSubmit](https://formsubmit.co). On the first test submission, FormSubmit will email you a confirmation link — click it once to activate the form.
