@@ -37,4 +37,4 @@ Upload this folder to Cloudflare Pages, Netlify, or GitHub Pages. A CNAME file i
 
 ## Contact form
 
-Submissions are sent to **jake.w@volugraph.com** via [FormSubmit](https://formsubmit.co). On the first test submission, FormSubmit will email you a confirmation link — click it once to activate the form.
+Submissions are sent to **jake.w@volugraph.com** via [FormSubmit](https://formsubmit.co) using your activated form ID (not your raw email in the code).
