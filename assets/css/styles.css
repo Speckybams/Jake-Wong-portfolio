@@ -211,6 +211,7 @@ textarea {
   max-width: min(46vw, 320px);
   object-fit: contain;
   background: transparent;
+  filter: invert(1);
   transition: opacity 0.2s ease;
 }
 
