@@ -35,7 +35,7 @@
   <img class="hero-bg" src="assets/images/web/4fa14d_9e6dd80076ce4e1caa3098fb5eb25601~mv2.jpg" alt="">
   <div class="hero-copy">
     <h1>Jake Wong</h1>
-    <p class="hero-tagline">Commercial Pilot | Founder of <img class="hero-starling-logo" src="assets/images/web/starling-industries.png" alt="Starling Industries"></p>
+    <p class="hero-tagline">Commercial Pilot | Founder of <a href="https://volugraph.com" target="_blank" rel="noopener"><img class="hero-starling-logo" src="assets/images/web/starling-industries.png" alt="Starling Industries"></a></p>
   </div>
 </section>
 <section class="section" id="aerial-logistics">
@@ -178,22 +178,24 @@
     </div>
     <div>
       <form id="contact-form">
+        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" hidden aria-hidden="true">
         <input name="full-name" type="text" placeholder="Full Name" maxlength="100">
         <input name="email" type="email" placeholder="Email" required maxlength="250">
         <input name="phone" type="tel" placeholder="Phone" maxlength="50">
         <input name="company" type="text" placeholder="Company" maxlength="100">
         <select name="purpose" aria-label="Purpose of contact">
           <option value="" disabled selected>Purpose of contact</option>
+          <option>Brand Filming</option>
           <option>Aerial filming</option>
-          <option>Surveying</option>
-          <option>3D reality capture</option>
-          <option>Visual effects</option>
+          <option>Real Estate</option>
+          <option>3D Reality Capture/Surveying</option>
           <option>Other</option>
         </select>
         <textarea name="message" placeholder="Message"></textarea>
         <button class="btn" type="submit">Submit Request</button>
       </form>
       <p class="form-success">Thanks for submitting</p>
+      <p class="form-error" role="alert">Something went wrong. Please try again or email jake.w@volugraph.com directly.</p>
     </div>
   </div>
 </section>
@@ -201,7 +203,4 @@
   <p>Copyright &copy; 2025 Jake Wong. All Rights Reserved.</p>
   <a href="copyright.html">Copyright Statement</a>
 </footer>
-<div class="lightbox" aria-hidden="true"><button class="lightbox-close" aria-label="Close">&times;</button><img alt=""></div>
-<script src="assets/js/main.js"></script>
-</body>
-</html>
+<div class="lightbox" aria-hidden="true"><button class="lightbo
